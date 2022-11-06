@@ -20,3 +20,19 @@ function toggleMenu(){
     toggle.classList.remove('open');
     navbar.classList.remove('active');
 }
+
+
+
+$('[data-fancybox]').fancybox({
+    animationEffect : "slide",
+    loop: true,
+    buttons:[
+        'slideShow',
+        'fullScreen',
+        'thumbs',
+        'share',
+        'download',
+        'zoom',
+        'close'
+    ]
+})
