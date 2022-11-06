@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/img/icon.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+    <nav>
+        <div class="navbar">
+            <div class="nav-item-1">
+                <span>Gustavo Alberto</span>
+                <div class="menu">
+                    <a href="#projects">Trabajo</a>
+                    <span>/</span>
+                    <a href="#about">Acerca</a>
+                </div>
+            </div>
+            <div class="nav-item-1">
+                <span>Diseñador Web</span>
+                <img src="img/emaill.svg" loading="lazy" alt="">
+            </div>
+            <div class="nav-item-1">
+                <span>©2022</span>
+            </div>
+            <div class="menu">
+                <a href="#contact">Contáctame</a>
+            </div>
+        </div>
+        <div class="navbar--mobile">
+            <span>Gustavo Alberto</span>
+                <div class="menu">
+                    <a href="#contact">Contáctame</a>
+                </div>
+            <div class="menu-btn">
+                <div class="menu-btn-burger"></div>
+            </div> 
+        </div>
+        <ul class="menu--display">
+            <ul class="menu">
+            <li><a href="#projects" onclick="toggleMenu();">Trabajo</a></li>
+            <li><a href="#about" onclick="toggleMenu();">Acerca</a></li>
+            <li> <img src="img/emaill.svg" loading="lazy" alt=""></li>
+            <li><span>©2022</span></li>
+            </ul>
+        </ul>
+    </nav>
+    <div class="container-page">
+
+        <div class="header">
+            <div class="header-container">
+                <h1 class="title">
+                    <span class="text-reveal">Gustavo</span>
+                    <span class="text-reveal">Diseñador</span>
+                    <span class="text-reveal">Web</span>
+                </h1>
+                <div class="hero-info">
+                    <div class="info-container">
+                        <span class="info">
+                            <span class="box-title">Locación</span>
+                            <span>Jalisco, Mexico</span>
+                        </span>
+                        <span class="info contact__margin">
+                            <span class="box-title">Zona Horaria</span>
+                            <span>(GMT-5)</span>
+                        </span>
+                    </div>
+                    <a href="#projects"><div class="button-outline effect">Ver Trabajos</div></a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-image-container">
+                <img src="img/foto-gustavo.JPG" alt="">
+            </div>
+        </div>
+
+        <div id="about" class="white-space"></div>
+        <p class="introduction">Hola, mi nombre es Gustavo, soy un diseñador web, mi superpoder es mantener el balance entre la funcionalidad y lo estético.</p>
+        <p>Pero no se queden solo con mi palabra,<br>denle un vistazo a mi trabajo mejor. 👇🏼</p>
+
+        <div id="projects" class="white-space"></div>
+
+        <h2>Proyectos</h2>
+        <div class="line"></div>
+
+        <div class="portofolio-container">
+            <div class="box-content">
+                <div class="img-container">
+                    <img src="img/p401.png" loading="lazy" alt="">
+                </div>
+                <div class="content-space">
+                    <span class="info contact__margin">
+                        <span class="box-title">PROYECTO</span>
+                        <span>Punto 401</span>
+                    </span>
+                    <span class="info contact__margin">
+                        <span class="box-title">AÑO</span>
+                        <span class="text-right">2021</span>
+                    </span>
+                </div>
+               
+                <span class="box-title">ACERCA</span>
+                    <p class="text__content">Landing page para una agencia de marketing digital especializada en los bienes raíces.</p>
+                
+                <a href="punto-401.html" rel="noopener noreferrer"><div class="button-outline effect">Ver Proyecto</div></a>
+            </div>
+
+            <div class="box-content">
+                <div class="img-container">
+                    <img src="img/don-chonito.png" loading="lazy" alt="">
+                </div>
+                <div class="content-space">
+                    <span class="info contact__margin">
+                        <span class="box-title">PROYECTO</span>
+                        <span>Don Chonito</span>
+                    </span>
+                    <span class="info contact__margin">
+                        <span class="box-title">AÑO</span>
+                        <span class="text-right">2022</span>
+                    </span>
+                </div>
+
+                <span class="box-title">ACERCA</span>
+                    <p class="text__content">"Don Chonito" es una panadería local que ofrece una gran variedad de productos que van desde pasteles hasta pan dulce.</p>
+                <a href="don-chonito.html" rel="noopener noreferrer"><div class="button-outline effect">Ver Proyecto</div></a>
+            </div>
+
+            <div class="box-content">
+                <div class="img-container">
+                    <img src="img/bahiban.png" loading="lazy" alt="">
+                </div>
+                <div class="content-space">
+                    <span class="info contact__margin">
+                        <span class="box-title">PROYECTO</span>
+                        <span>Bahiban</span>
+                    </span>
+                    <span class="info contact__margin">
+                        <span class="box-title">AÑO</span>
+                        <span class="text-right">2022</span>
+                    </span>
+                </div>
+
+                <span class="box-title">ACERCA</span>
+                    <p class="text__content">Condominios de lujo con vista al mar, localizados en una zona exclusiva de Nayarit.</p>
+                <a href="bahiban.html" rel="noopener noreferrer"><div class="button-outline effect">Ver Proyecto</div></a>
+            </div>
+        </div>
+        <div id="contact" class="space-white"></div>
+        <div class="contact">
+            <h2>Contacto</h2>
+            <div class="line"></div>
+            <div class="content-space">
+                <span class="info contact__margin">
+                    <span class="box-title">EMAIL</span>
+                    <img src="img/emaill.svg" loading="lazy" alt="">
+                </span>
+                <span class="info contact__margin">
+                    <span class="box-title">REDES SOCIALES</span>
+                    <a class="text__content link-box" href="https://www.instagram.com/itsguuus/"><p class="text-right">Instagram</p><img src="img/flecha.svg" alt=""></a> 
+                    <a class="text__content link-box" href="https://www.behance.net/gustavoalberto5"><p class="text-right">Behance</p><img src="img/flecha.svg" alt=""></a> 
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
